@@ -1,0 +1,151 @@
+{
+  "version": "2.0",
+  "routeKey": "ANY /TSDiscordJiraIntegration",
+  "rawPath": "/default/TSDiscordJiraIntegration",
+  "rawQueryString": "user_id=oliver.harrison&user_key=oliver.harrison",
+  "headers": {
+    "accept": "*/*",
+    "accept-encoding": "gzip,deflate",
+    "content-length": "4762",
+    "content-type": "application/json; charset=UTF-8",
+    "host": "cfkbwka8nl.execute-api.eu-west-2.amazonaws.com",
+    "user-agent": "Atlassian Webhook HTTP Client",
+    "x-amzn-trace-id": "Root=1-60eeb0c5-68b7d4545539954e09537c97",
+    "x-atlassian-webhook-identifier": "1506414630942643111",
+    "x-b3-sampled": "1",
+    "x-b3-spanid": "06a37998f7996382",
+    "x-b3-traceid": "06a37998f7996382",
+    "x-forwarded-for": "18.184.99.225",
+    "x-forwarded-port": "443",
+    "x-forwarded-proto": "https"
+  },
+  "queryStringParameters": {
+    "user_id": "oliver.harrison",
+    "user_key": "oliver.harrison"
+  },
+  "requestContext": {
+    "accountId": "990445452825",
+    "apiId": "cfkbwka8nl",
+    "domainName": "cfkbwka8nl.execute-api.eu-west-2.amazonaws.com",
+    "domainPrefix": "cfkbwka8nl",
+    "http": {
+      "method": "POST",
+      "path": "/default/TSDiscordJiraIntegration",
+      "protocol": "HTTP/1.1",
+      "sourceIp": "18.184.99.225",
+      "userAgent": "Atlassian Webhook HTTP Client"
+    },
+    "requestId": "CdCO5jtlrPEEPVg=",
+    "routeKey": "ANY /TSDiscordJiraIntegration",
+    "stage": "default",
+    "time": "14/Jul/2021:09:39:17 +0000",
+    "timeEpoch": 1626255557583
+  },
+  "body": {
+    "timestamp": 1626255557268,
+    "webhookEvent": "comment_created",
+    "comment": {
+      "self": "https://toolstream.atlassian.net/rest/api/2/issue/10092/comment/10694",
+      "id": "10694",
+      "author": {
+        "self": "https://toolstream.atlassian.net/rest/api/2/user?accountId=5d566fa392705e0c1c5ea8d8",
+        "accountId": "5d566fa392705e0c1c5ea8d8",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/ee632e19287224caaac010f916887655?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOH-4.png",
+          "24x24": "https://secure.gravatar.com/avatar/ee632e19287224caaac010f916887655?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOH-4.png",
+          "16x16": "https://secure.gravatar.com/avatar/ee632e19287224caaac010f916887655?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOH-4.png",
+          "32x32": "https://secure.gravatar.com/avatar/ee632e19287224caaac010f916887655?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOH-4.png"
+        },
+        "displayName": "Oliver Harrison",
+        "active": true,
+        "timeZone": "Europe/London",
+        "accountType": "atlassian"
+      },
+      "body": "test",
+      "updateAuthor": {
+        "self": "https://toolstream.atlassian.net/rest/api/2/user?accountId=5d566fa392705e0c1c5ea8d8",
+        "accountId": "5d566fa392705e0c1c5ea8d8",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/ee632e19287224caaac010f916887655?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOH-4.png",
+          "24x24": "https://secure.gravatar.com/avatar/ee632e19287224caaac010f916887655?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOH-4.png",
+          "16x16": "https://secure.gravatar.com/avatar/ee632e19287224caaac010f916887655?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOH-4.png",
+          "32x32": "https://secure.gravatar.com/avatar/ee632e19287224caaac010f916887655?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOH-4.png"
+        },
+        "displayName": "Oliver Harrison",
+        "active": true,
+        "timeZone": "Europe/London",
+        "accountType": "atlassian"
+      },
+      "created": "2021-07-14T10:39:17.268+0100",
+      "updated": "2021-07-14T10:39:17.268+0100",
+      "jsdPublic": true
+    },
+    "issue": {
+      "id": "10092",
+      "self": "https://toolstream.atlassian.net/rest/api/2/10092",
+      "key": "TI-51",
+      "fields": {
+        "summary": "Barcode Printing App",
+        "issuetype": {
+          "self": "https://toolstream.atlassian.net/rest/api/2/issuetype/10002",
+          "id": "10002",
+          "description": "A small, distinct piece of work.",
+          "iconUrl": "https://toolstream.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
+          "name": "Task",
+          "subtask": false,
+          "avatarId": 10318,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "self": "https://toolstream.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "TI",
+          "name": "Toolstream Issues",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://toolstream.atlassian.net/secure/projectavatar?pid=10000&avatarId=10419",
+            "24x24": "https://toolstream.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10419",
+            "16x16": "https://toolstream.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10419",
+            "32x32": "https://toolstream.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10419"
+          }
+        },
+        "assignee": {
+          "self": "https://toolstream.atlassian.net/rest/api/2/user?accountId=5f71b155602996007686a2b3",
+          "accountId": "5f71b155602996007686a2b3",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/48ead3323896763c74f805fc2fd2bd7e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTJ-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/48ead3323896763c74f805fc2fd2bd7e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTJ-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/48ead3323896763c74f805fc2fd2bd7e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTJ-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/48ead3323896763c74f805fc2fd2bd7e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTJ-3.png"
+          },
+          "displayName": "toolstream jira-user",
+          "active": true,
+          "timeZone": "Europe/London",
+          "accountType": "atlassian"
+        },
+        "priority": {
+          "self": "https://toolstream.atlassian.net/rest/api/2/priority/1",
+          "iconUrl": "https://toolstream.atlassian.net/images/icons/priorities/highest.svg",
+          "name": "Highest",
+          "id": "1"
+        },
+        "status": {
+          "self": "https://toolstream.atlassian.net/rest/api/2/status/10002",
+          "description": "",
+          "iconUrl": "https://toolstream.atlassian.net/",
+          "name": "Done",
+          "id": "10002",
+          "statusCategory": {
+            "self": "https://toolstream.atlassian.net/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    }
+  },
+  "isBase64Encoded": "False"
+}
